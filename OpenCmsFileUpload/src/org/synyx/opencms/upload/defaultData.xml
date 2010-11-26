@@ -9,5 +9,5 @@ Description: Saves the data from Dialog.
     <publish>true</publish>
     <username>Admin</username>
     <password>admin</password>
-    <cmsApp>http://localhost:8080/opencms/UploadServlet</cmsApp>
+    <cmsApp>http://localhost:8080/opencms/opencms/system/modules/org.synyx.opencms.fileupload/pages/upload.jsp</cmsApp>
 </root>

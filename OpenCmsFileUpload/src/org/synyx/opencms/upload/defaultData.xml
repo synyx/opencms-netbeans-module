@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Document   : DialogData.xml
+Description: Saves the data from Dialog.
+-->
+<root>
+    <path>/system</path>
+    <type>plain</type>
+    <publish>true</publish>
+    <username>Admin</username>
+    <password>admin</password>
+    <cmsApp>http://localhost:8080/opencms/UploadServlet</cmsApp>
+</root>

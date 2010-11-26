@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.synyx.opencms.upload/1
+OpenIDE-Module-Implementation-Version: 1
+OpenIDE-Module-Layer: org/synyx/opencms/upload/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/synyx/opencms/upload/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.1
+

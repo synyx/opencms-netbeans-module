@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+       elementFormDefault="qualified">
+    <xsd:complexType name="OpenCmsHtml">
+        <xsd:sequence>
+            <xsd:element name="links" type="OpenCmsLinkTable" />
+            <xsd:element name="content" type="OpenCmsHtmlContent" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" use="optional" />
+        <xsd:attribute name="enabled" type="xsd:boolean" use="optional" />
+    </xsd:complexType>
+    <xsd:complexType name="OpenCmsHtmlContent">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="enabled" type="xsd:string"
+                       use="optional" />
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="OpenCmsLinkTable">
+        <xsd:sequence>
+            <xsd:element name="link" type="OpenCmsLink" minOccurs="0"
+                   maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="OpenCmsLink">
+        <xsd:sequence>
+            <xsd:element name="target" type="xsd:string" />
+            <xsd:element name="anchor" type="xsd:string" minOccurs="0" />
+            <xsd:element name="query" type="xsd:string" minOccurs="0" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+        <xsd:attribute name="type" type="OpenCmsLinkType"
+               use="required" />
+        <xsd:attribute name="internal" type="xsd:boolean"
+               use="required" />
+    </xsd:complexType>
+    <xsd:simpleType name="OpenCmsLinkType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="A" />
+            <xsd:enumeration value="IMG" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="OpenCmsLocale">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern
+                   value="[a-z]{2,3}(_[A-Z]{2}(_[a-zA-Z0-9] ){0,1}){0,1}" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="OpenCmsDateTime">
+        <xsd:restriction base="xsd:decimal" />
+    </xsd:simpleType>
+    <xsd:simpleType name="OpenCmsString">
+        <xsd:restriction base="xsd:string" />
+    </xsd:simpleType>
+    <xsd:simpleType name="OpenCmsVfsFile">
+        <xsd:restriction base="xsd:string" />
+    </xsd:simpleType>
+    <xsd:simpleType name="OpenCmsBoolean">
+        <xsd:restriction base="xsd:boolean" />
+    </xsd:simpleType>
+    <xsd:simpleType name="OpenCmsColor">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern
+                   value="#([a-f]|[A-F]|[0-9]){3}(([a-f]|[A-F]|[0-9]){3})?" />
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

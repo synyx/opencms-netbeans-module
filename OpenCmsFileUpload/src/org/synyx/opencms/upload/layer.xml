@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+
+    <!-- TODO where does this come from and what is it for? -->
+    <attr name="Templates\JSF\Page.jsp\Content-Encoding" stringvalue="ISO-8859-1"/>
+    <attr name="Templates\JSF\PageFragment.jspf\Content-Encoding" stringvalue="ISO-8859-1"/>
+    <attr name="Templates\JSP_Servlet\JSP.jsp\Content-Encoding" stringvalue="${encoding}"/>
+    <attr name="Templates\JSP_Servlet\JSPF.jspf\Content-Encoding" stringvalue="${encoding}"/>
+    <attr name="Templates\JSP_Servlet\JSPFX.jspf\Content-Encoding" stringvalue="ISO-8859-1"/>
+    <attr name="Templates\JSP_Servlet\JSPX.jspx\Content-Encoding" stringvalue="${encoding}"/>
+    <attr name="Templates\JSP_Servlet\TagFile.tag\Content-Encoding" stringvalue="ISO-8859-1"/>
+    <attr name="Templates\JSP_Servlet\TagFileF.tagf\Content-Encoding" stringvalue="ISO-8859-1"/>
+    <attr name="Templates\JSP_Servlet\TagFileFX.tagf\Content-Encoding" stringvalue="ISO-8859-1"/>
+    <attr name="Templates\JSP_Servlet\TagFileX.tagx\Content-Encoding" stringvalue="${encoding}"/>
+    <attr name="org-netbeans-modules-web-jsf\welcomeJSF.jsp\Content-Encoding" stringvalue="__ENCODING__"/>
+    <attr name="org-netbeans-modules-web-struts\welcome.jsp\Content-Encoding" stringvalue="__ENCODING__"/>
+    <folder name="Actions">
+        <folder name="Tools">
+            <file name="org-synyx-opencms-upload-FolderUploadAction.instance"/>
+            <file name="org-synyx-opencms-upload-StartUpload.instance"/>
+        </folder>
+    </folder>
+    
+    <folder name="Loaders">
+        <folder name="content">
+            <folder name="unknown">
+                <folder name="Actions">
+                    <attr name="Separator1.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/CutAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+        </folder>
+        <!-- removed until folders work
+        <folder name="folder">
+            <folder name="any">
+                <folder name="Actions">
+                    <attr name="Separator0.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-FolderUploadAction.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-FolderUploadAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-FolderUploadAction.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-FolderUploadAction.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/FindAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+        </folder>
+        -->
+        <folder name="image">
+            <folder name="png-gif-jpeg-bmp">
+                <folder name="Actions">
+                    <attr name="Separator0.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/CutAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            <folder name="svg+xml">
+                <folder name="Actions">
+                    <attr name="Separator0.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/CutAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            
+        </folder>
+
+        <folder name="application">
+            <folder name="pdf">
+                <folder name="Actions">
+                    <attr name="Separator0.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/CutAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            <folder name="x-class-file">
+                <folder name="Actions">
+                    <attr name="Separator0.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/CutAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            
+        </folder>
+        
+        <folder name="text">
+            <folder name="css">
+                <folder name="Actions">
+                    <attr name="org-openide-actions-OpenAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            <folder name="html">
+                <folder name="Actions">
+                    <attr name="ViewAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/html-project-separator-1.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            
+            <folder name="x-java">
+                <folder name="Actions">
+                    <attr name="OpenAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/Separator3.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            <folder name="x-jsp">
+                <folder name="Actions">
+                    <attr name="Separator1.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/CutAction.instance" boolvalue="true"/>
+               </folder>
+            </folder>
+            <folder name="x-properties">
+                <folder name="Actions">
+                    <attr name="Separator1.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/CutAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            <folder name="x-schema+xml">
+                <folder name="Actions">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+
+            <folder name="x-css">
+                <folder name="Actions">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+
+            <folder name="x-tld">
+                <folder name="Actions">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+
+            <folder name="x-wsdl+xml">
+                <folder name="Actions">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+
+            <folder name="xml">
+                <folder name="Actions">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            
+        </folder>
+    </folder>
+    
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-jsp">
+                <folder name="Popup">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            <folder name="x-properties">
+                <folder name="Popup">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+            <folder name="x-css">
+                <folder name="Popup">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+
+            <folder name="x-tld">
+                <folder name="Popup">
+                    <attr name="org-openide-actions-EditAction.instance/org-synyx-opencms-upload-separatorBefore.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorBefore.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorBefore.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-StartUpload.shadow/org-synyx-opencms-upload-separatorAfter.instance" boolvalue="true"/>
+                    <file name="org-synyx-opencms-upload-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-synyx-opencms-upload-separatorAfter.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                </folder>
+            </folder>
+
+        </folder>
+    </folder>
+
+    <folder name="Plugins">
+        <!-- Register XML module catalog plugin -->
+        <folder name="XML">
+            <folder name="UserCatalogs">
+                <file name="org-synyx-opencms-schemacompletion-RegisterCatalog.instance">
+                    <attr name="instanceCreate" newvalue="org.synyx.opencms.schemacompletion.RegisterCatalog"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.xml.catalog.spi.CatalogReader"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+
+    <!--
+    <folder name="Menu">
+        <folder name="Tools">
+            <attr name="org-netbeans-modules-autoupdate-UpdateAction.instance/org-synyx-opencms-upload-StartUpload.shadow" boolvalue="true"/>
+            <file name="org-synyx-opencms-upload-StartUpload.shadow">
+                <attr name="originalFile" stringvalue="Actions/Tools/org-synyx-opencms-upload-StartUpload.instance"/>
+            </file>
+        </folder>
+    </folder>
+   -->
+</filesystem>
